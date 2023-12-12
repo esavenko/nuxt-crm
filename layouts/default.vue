@@ -1,6 +1,6 @@
 <template>
     <section class="section-layout" style="min-height: 100vh;">
-        <aside>Sidebar</aside>
+        <LayoutSidebar />
         <slot />
     </section>
 </template>
