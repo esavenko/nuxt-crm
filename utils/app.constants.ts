@@ -1,0 +1,6 @@
+export const APP_WRITE_ID = 'nuxt-crm-app'
+expot const DB_ID = ''
+expot const COLLECTION_DEALS = ''
+expot const COLLECTION_CUSTOMERS = ''
+expot const COLLECTION_COMMENTS = ''
+expot const STORAGE_ID = ''
