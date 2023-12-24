@@ -929,7 +929,7 @@
   optionalDependencies:
     ipx "^2.0.2"
 
-"@nuxt/kit@3.8.2", "@nuxt/kit@^3.8.2":
+"@nuxt/kit@3.8.2", "@nuxt/kit@^3.5.0", "@nuxt/kit@^3.8.2":
   version "3.8.2"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.8.2.tgz#f4548f3449d2566dbd2febe2b84f47060f7c668c"
   integrity sha512-LrXCm8hAkw+zpX8teUSD/LqXRarlXjbRiYxDkaqw739JSHFReWzBFgJbojsJqL4h1XIEScDGGOWiEgO4QO1sMg==
@@ -1163,6 +1163,14 @@
     "@parcel/watcher-win32-arm64" "2.3.0"
     "@parcel/watcher-win32-ia32" "2.3.0"
     "@parcel/watcher-win32-x64" "2.3.0"
+
+"@pinia/nuxt@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.5.1.tgz#ee7c979d365a5dfda882430ddfae405fbd78d8d5"
+  integrity sha512-6wT6TqY81n+7/x3Yhf0yfaJVKkZU42AGqOR0T3+UvChcaOJhSma7OWPN64v+ptYlznat+fS1VTwNAcbi2lzHnw==
+  dependencies:
+    "@nuxt/kit" "^3.5.0"
+    pinia ">=2.1.7"
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
@@ -1417,6 +1425,11 @@
   version "1.20.2"
   resolved "https://registry.yarnpkg.com/@types/resolve/-/resolve-1.20.2.tgz#97d26e00cd4a0423b4af620abecf3e6f442b7975"
   integrity sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==
+
+"@types/uuid@^9.0.7":
+  version "9.0.7"
+  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-9.0.7.tgz#b14cebc75455eeeb160d5fe23c2fcc0c64f724d8"
+  integrity sha512-WUtIVRUZ9i5dYXefDEAI7sh9/O7jGvHg7Df/5O/gtH3Yabe5odI3UWopVR1qbPXQtvOxWu3mM4XxlYeZtMWF4g==
 
 "@types/web-bluetooth@^0.0.20":
   version "0.0.20"
@@ -4819,6 +4832,14 @@ pify@^2.3.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
   integrity sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==
 
+pinia@>=2.1.7, pinia@^2.1.7:
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.1.7.tgz#4cf5420d9324ca00b7b4984d3fbf693222115bbc"
+  integrity sha512-+C2AHFtcFqjPih0zpYuvof37SFxMQ7OEG2zV9jRI12i9BOy3YQVAHwdKtyyc8pDcDyIc33WCIsZaCFWU7WWxGQ==
+  dependencies:
+    "@vue/devtools-api" "^6.5.0"
+    vue-demi ">=0.14.5"
+
 pirates@^4.0.1:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/pirates/-/pirates-4.0.6.tgz#3018ae32ecfcff6c29ba2267cbf21166ac1f36b9"
@@ -6281,6 +6302,11 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
+uuid@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
+  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
+
 validate-npm-package-license@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"
@@ -6427,7 +6453,7 @@ vue-bundle-renderer@^2.0.0:
   dependencies:
     ufo "^1.2.0"
 
-vue-demi@>=0.13.0, vue-demi@>=0.14.6:
+vue-demi@>=0.13.0, vue-demi@>=0.14.5, vue-demi@>=0.14.6:
   version "0.14.6"
   resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.14.6.tgz#dc706582851dc1cdc17a0054f4fec2eb6df74c92"
   integrity sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==
