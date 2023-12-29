@@ -27,6 +27,7 @@ const { data, isLoading, refetch } = useKanbanQuery()
         >
           <div class="rounded bg-slate-700 py-1 px-5 mb-2 text-center">{{ column.name }}</div>
           <div>
+            <KanbanCreateDeal :refetch="refetch" :status="column.id" />
             <UiCard
               :key="card.id"
               v-for="card in column.items"
