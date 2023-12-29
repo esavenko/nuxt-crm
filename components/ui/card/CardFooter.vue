@@ -4,13 +4,13 @@ import { cn } from '@/utils'
 const props = defineProps({
   class: {
     type: String,
-    default: '',
-  },
+    default: ''
+  }
 })
 </script>
 
 <template>
-  <div :class="cn('flex items-center p-6 pt-0', props.class)">
+  <div :class="cn('p-3 pt-0 text-xs opacity-70 italic', props.class)">
     <slot />
   </div>
 </template>
