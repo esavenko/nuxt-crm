@@ -17,7 +17,11 @@ export default defineNuxtConfig({
         }
       ],
     'nuxt-icon',
-    '@pinia/nuxt'
+    '@pinia/nuxt',
+    ['@vee-validate/nuxt',
+      {
+        autoImports: true
+      }]
   ],
   shadcn: {
     prefix: 'Ui',
