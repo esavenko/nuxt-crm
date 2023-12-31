@@ -26,7 +26,7 @@ const props = defineProps({
 })
 
 const { handleSubmit, defineField, handleReset } = useForm<IDealFormState>({
-  initialValue: {
+  initialValues: {
     status: props.status
   }
 })
