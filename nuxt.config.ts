@@ -2,20 +2,18 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: [
+    '@nuxt/ui',
     '@nuxt/image',
-    '@nuxtjs/tailwindcss',
-    'shadcn-nuxt'
-      [
-      '@nuxtjs/google-fonts',
-        {
-          families: {
-            Lato: {
-              wght: [300, 400, 500],
-              ital: [300]
-            }
+    'shadcn-nuxt',
+    ['@nuxtjs/google-fonts',
+      {
+        families: {
+          Lato: {
+            wght: [300, 400, 500],
+            ital: [300]
           }
         }
-      ],
+      }],
     'nuxt-icon',
     '@pinia/nuxt',
     ['@vee-validate/nuxt',
