@@ -26,6 +26,11 @@ export const MENU_DATA: IMenuItem[] = [
     url: '/orders'
   },
   {
+    icon: 'fluent:receipt-28-regular',
+    name: 'Customers',
+    url: '/customers'
+  },
+  {
     icon: 'fluent:person-feedback-48-regular',
     name: 'Feedback',
     url: '/feedback'
