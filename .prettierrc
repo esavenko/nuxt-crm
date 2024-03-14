@@ -3,7 +3,7 @@
   "tabWidth": 2,
   "printWidth": 60,
   "endOfLine": "auto",
-  "semi": true,
+  "semi": false,
   "trailingComma": "none",
   "arrowParens": "avoid",
   "bracketSpacing": true,
