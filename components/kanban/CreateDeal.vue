@@ -83,7 +83,7 @@ const onSubmit = handleSubmit(values => {
       class="input"
     />
     <UiInput
-      placeholder="Ваша сумма"
+      placeholder="Сумма"
       v-model="price"
       v-bind="priceAttrs"
       type="text"
