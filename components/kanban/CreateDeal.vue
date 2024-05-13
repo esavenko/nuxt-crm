@@ -5,7 +5,7 @@ import { defineProps } from 'vue'
 import { COLLECTION_DEALS, DB_ID } from '~/utils/app.constants'
 import type { IDeal } from '@/types/deals.types'
 
-const isOpenForm = ref(false)
+const isOpenForm = ref(false);
 
 interface IDealFormState extends Pick<IDeal, 'name' | 'price'> {
   customer: {
